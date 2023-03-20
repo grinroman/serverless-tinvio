@@ -1,0 +1,9 @@
+.root {
+  display: flex;
+  gap: 9px;
+
+  &__octopus,
+  &__logotext {
+    margin: auto 0;
+  }
+}

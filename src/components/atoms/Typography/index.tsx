@@ -5,7 +5,7 @@ import styles from './typography.module.scss';
 
 export type TypographyProps = {
   component?: React.ElementType;
-  preset?: 'common1' | 'common2' | 'title1';
+  preset?: 'locales';
   color?: Color;
   style?: CSSProperties;
   align?: 'left' | 'center' | 'right';

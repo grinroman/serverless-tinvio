@@ -3,39 +3,13 @@
 .root {
   font-family: $nts-font-family;
 
-  &.common1 {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
+  &.locales {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
 
-    @include breakpoint("md") {
-      font-size: 24px;
-      font-weight: 500;
-      line-height: 32px;
-    }
-  }
-
-  &.common2 {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 24px;
-
-    @include breakpoint("md") {
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 32px;
-    }
-  }
-
-  &.title1 {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 48px;
-
-    @include breakpoint("md") {
-      font-size: 40px;
-      font-weight: 700;
-      line-height: 46px;
+    @include breakpoint("xxl") {
+      font-size: 16px;
     }
   }
 

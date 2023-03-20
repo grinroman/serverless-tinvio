@@ -2,12 +2,20 @@
 @import "src/scss/mixins";
 
 .root {
-  $width: map-get($nts-containers, xs);
+  $width: map-get($nts-containers, lg);
 
   width: $width;
   min-width: $width;
   max-width: $width;
   margin: 0 auto;
+
+  @include breakpoint("xsm") {
+    $width: map-get($nts-containers, xsm);
+
+    width: $width;
+    min-width: $width;
+    max-width: $width;
+  }
 
   @include breakpoint("sm") {
     $width: map-get($nts-containers, sm);
@@ -25,15 +33,15 @@
     max-width: $width;
   }
 
-  @include breakpoint("lg") {
-    $width: map-get($nts-containers, lg);
+  @include breakpoint("xl") {
+    $width: map-get($nts-containers, xl);
 
     width: $width;
     min-width: $width;
     max-width: $width;
   }
 
-  @include breakpoint("xl") {
+  @include breakpoint("xxl") {
     $width: map-get($nts-containers, xl);
 
     width: $width;

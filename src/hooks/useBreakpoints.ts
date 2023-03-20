@@ -2,12 +2,12 @@ import { useEffect, useRef } from 'react';
 
 export enum Breakpoint {
   UNKNOWN = 0,
-  XS = 320,
-  SM = 576,
-  MD = 768,
-  LG = 992,
-  XL = 1200,
-  XXL = 1400,
+  XSM = 375,
+  SM = 768,
+  MD = 1024,
+  LG = 1280,
+  XL = 1440,
+  XXL = 1920,
 }
 
 export const useBreakpoints = (
@@ -17,7 +17,7 @@ export const useBreakpoints = (
 
   useEffect(() => {
     const breakpointsOrder = [
-      Breakpoint.XS,
+      Breakpoint.XSM,
       Breakpoint.SM,
       Breakpoint.MD,
       Breakpoint.LG,

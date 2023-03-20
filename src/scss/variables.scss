@@ -1,27 +1,31 @@
 $nts-font-family: "Gilroy";
 
 $nts-containers: (
-  xs: calc(100% - 24px),
-  sm: calc(100% - 32px),
-  md: calc(100% - 40px),
-  lg: calc(100% - 48px),
-  xl: 1152px,
+  xxl: calc(100% - 52px),
+  xl: calc(100% - 38px),
+  lg: calc(100% - 34px),
+  md: 1024px,
+  sm: 768px,
+  xsm: 375px,
 );
 
 $nts-breakpoints: (
-  xs: 320px,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
+  xsm: 375px,
+  sm: 768px,
+  md: 1024px,
+  lg: 1280px,
+  xl: 1440px,
+  xxl: 1920px,
 );
 
 $nts-colors: (
   paragraph: (
-    base: #14100b,
+    base: #212121,
+    secondary: #ff474d,
   ),
   background: (
     base: #ffffff,
+    secondary: #f6f6f6,
   ),
 );
 

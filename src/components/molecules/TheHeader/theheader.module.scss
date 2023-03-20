@@ -1,0 +1,24 @@
+@import "src/scss/variables";
+@import "src/scss/mixins";
+
+.root {
+  height: auto;
+  width: 100%;
+
+  padding: 24px 0px;
+
+  position: fixed;
+  z-index: 999;
+
+  background-color: get-color(background, base);
+  backdrop-filter: none;
+
+  &__wrapper {
+    max-width: 1032px;
+    padding: 0px;
+
+    &Logolocal {
+      display: flex;
+    }
+  }
+}

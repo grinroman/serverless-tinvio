@@ -1,7 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-const FONT_NAME = 'Poppins';
-const FONT_TYPES = ['Regular', 'Bold', 'Light'];
+const FONT_NAME = 'Gilroy';
+const FONT_TYPES = ['Medium', 'Semibold', 'Bold'];
 const FONT_EXTENSIONS = ['eot', 'ttf', 'woff'];
 
 class CustomDocument extends Document {
